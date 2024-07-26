@@ -3,9 +3,7 @@ This pathfinding visualizer utilizes Dijkstra's algorithm to determine the short
 
 
 
-# PathFinding-Visualizer
 
-This path-finding visualizer uses the Dijkstra's algorithm to find the shortest path between a source and destination node. Users can customize the paths by choosing the start and end nodes, and they can also add blocks or weights to nodes, influencing the optimal route.
 
 # Dijkstra's algorithm
 
