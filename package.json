@@ -1,6 +1,6 @@
 {
   "name": "path_finding",
-  "homepage": "https://pathfinding-visualizer-9sg.pages.dev/",
+  "homepage": "https://path-finding-visualizer-using-dijkstra-algorithm.vercel.app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
