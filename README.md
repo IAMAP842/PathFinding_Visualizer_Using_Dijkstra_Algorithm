@@ -17,18 +17,24 @@ The algorithm maintains a record of the shortest known distances from each node 
 
 The reliability of Dijkstra's algorithm in finding the shortest paths stems from its greedy strategy. It always selects the node with the smallest known distance to explore next, updating the distances to its neighboring nodes if a shorter path is found. By processing nodes in the order of increasing distance, the algorithm ensures that the shortest path to each node is established before moving on to more distant nodes.
 
+
 ## Tech Stack Used
 
-### ReactJs
+### ReactJS
+Virtual DOM: ReactJS leverages a virtual DOM to enhance user interface performance. By keeping a lightweight in-memory version of the actual DOM, React can efficiently manage updates and reduce unnecessary re-renders, resulting in better performance and a more seamless user experience.
+Extensive Ecosystem and Community Support: ReactJS boasts a rich ecosystem supported by an active community. Developers have access to a wide array of resources, libraries, and tools, offering numerous solutions to common development problems.
 
-1. Virtual DOM: Virtual DOM: ReactJS utilizes a virtual DOM (Document Object Model) to efficiently update and render user interfaces. By maintaining a lightweight representation of the actual DOM in memory, React can perform efficient updates and minimize unnecessary re-renders. This results in improved performance and a smoother user experience.
-2. Rich Ecosystem and Community Support: ReactJS has a vibrant and active community with extensive resources, libraries, and tools available. This ecosystem provides a wide range of solutions for common development challenges.
+### Vercel
 
-### Cloudflare
+The app is hosted on Vercel, which offers several key benefits:
 
-Hosted front end on Cloudflare. It offers certain advantages.
+1. Optimized Performance and Global CDN:
+   Vercel leverages a globally distributed Content Delivery Network (CDN) to deliver web content quickly and efficiently to users worldwide. By caching content at edge locations, Vercel ensures faster load times and reduced latency, resulting in a smoother and more responsive user experience.
 
-1. Content Delivery Network (CDN):A CDN is a geographically distributed group of servers that caches content close to end users this improves visitors experience faster page loading times.
-2. Easy Deployment and Continuous Integration: Cloudflare Pages offers seamless integration with popular version control systems such as GitHub. This allows for easy deployment of frontend updates through automated pipelines, ensuring a smooth and efficient development workflow.
-3. Cost-effective Solution: Cloudflare Pages offers a generous free tier for hosting static websites and provides cost-effective pricing plans for higher traffic volumes.
+2. Seamless Deployment and Integration:
+   Vercel offers seamless integration with popular version control systems like GitHub, GitLab, and Bitbucket. This integration allows for effortless deployment of applications with automatic builds and previews. Developers can easily push updates and collaborate on projects, streamlining the development workflow.
 
+3. Serverless Functions and Scalability:
+   Vercel supports serverless functions, enabling developers to build scalable and performant back-end services without managing servers. These functions auto-scale based on demand, ensuring that applications can handle varying traffic loads efficiently. This scalability is ideal for modern web applications that need to grow dynamically with user demand.
+
+Also this project required knowledge of Dijkstra's Algorithm in detail.
