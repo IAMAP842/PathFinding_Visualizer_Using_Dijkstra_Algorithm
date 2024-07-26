@@ -27,7 +27,7 @@ The reliability of Dijkstra's algorithm in finding the shortest paths stems from
 
 ### Vercel
 
-The app is hosted on Vercel, which offers several key benefits:
+The application is hosted on Vercel, which offers several key benefits:
 
 1. Optimized Performance and Global CDN:
    Vercel leverages a globally distributed Content Delivery Network (CDN) to deliver web content quickly and efficiently to users worldwide. By caching content at edge locations, Vercel ensures faster load times and reduced latency, resulting in a smoother and more responsive user experience.
