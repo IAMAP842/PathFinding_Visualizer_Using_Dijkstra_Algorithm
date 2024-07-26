@@ -78,7 +78,7 @@ export default class PathfindingVisualizer extends Component {
   }
 
   visualizeDijkstra() {
-    this.setState({ topMessage: "Creator : Ritik" });
+    this.setState({ topMessage: "Creator : Aritra Pal" });
     const { grid } = this.state;
     const startNode = grid[START_NODE_ROW][START_NODE_COL];
     const finishNode = grid[FINISH_NODE_ROW][FINISH_NODE_COL];
