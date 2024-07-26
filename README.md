@@ -11,13 +11,11 @@ This pathfinding visualizer utilizes Dijkstra's algorithm to determine the short
 - calculates the distance through it to each unvisited neighbor,
   and updates the neighbor's distance if smaller and repeat this until we visited all nodes. -->
 
-Dijkstra's Algorithm analyzes the graph to find the shortest path between that node and all the other nodes in the graph.
+Dijkstra's Algorithm works by identifying the shortest paths between a starting node and all other nodes within a graph.
 
-- The algorithm keeps track of the currently known shortest distance from each node to the source node and it updates these values if it finds a shorter path.
-- Once the algorithm has found the shortest path between the source node and another node, that node is marked as "visited" and added to the path.
-- The process continues until all the nodes in the graph have been added to the path. This way, we have a path that connects the source node to all other nodes following the shortest path possible to reach each node.
+The algorithm maintains a record of the shortest known distances from each node to the source node, updating these records whenever a shorter route is discovered. Once the algorithm determines the shortest path from the source node to another node, that node is marked as "visited" and included in the final path. This process continues until all nodes have been visited, ensuring that the shortest routes from the source node to every other node are identified.
 
-The reason Dijkstra's algorithm works and guarantees the shortest path is due to its greedy nature. It always explores the node with the minimum distance first and updates the distance to its neighbors if a shorter path is found. Since the algorithm explores nodes in order of increasing distance, it ensures that the shortest distance to each node is found before exploring longer paths.
+The reliability of Dijkstra's algorithm in finding the shortest paths stems from its greedy strategy. It always selects the node with the smallest known distance to explore next, updating the distances to its neighboring nodes if a shorter path is found. By processing nodes in the order of increasing distance, the algorithm ensures that the shortest path to each node is established before moving on to more distant nodes.
 
 ## Tech Stack Used
 
