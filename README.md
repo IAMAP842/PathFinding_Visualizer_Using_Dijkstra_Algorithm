@@ -32,10 +32,3 @@ Hosted front end on Cloudflare. It offers certain advantages.
 2. Easy Deployment and Continuous Integration: Cloudflare Pages offers seamless integration with popular version control systems such as GitHub. This allows for easy deployment of frontend updates through automated pipelines, ensuring a smooth and efficient development workflow.
 3. Cost-effective Solution: Cloudflare Pages offers a generous free tier for hosting static websites and provides cost-effective pricing plans for higher traffic volumes.
 
-## Screenshots
-
-<img src="./screenshots/Tutorial.png" height="600">
-<img src="./screenshots/first.png" height="600">
-<img src="./screenshots/blocked.png" height="600">
-<img src="./screenshots/weight.png" height="600">
-<img src="./screenshots/path.png" height="600">
