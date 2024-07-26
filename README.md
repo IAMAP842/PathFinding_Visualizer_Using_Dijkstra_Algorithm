@@ -5,7 +5,7 @@ This pathfinding visualizer utilizes Dijkstra's algorithm to determine the short
 
 
 
-# Dijkstra's algorithm
+# Dijkstra's Algorithm
 
 <!-- - Picks the unvisited vertex with the lowest distance.
 - calculates the distance through it to each unvisited neighbor,
@@ -21,8 +21,9 @@ The reliability of Dijkstra's algorithm in finding the shortest paths stems from
 ## Tech Stack Used
 
 ### ReactJS
-Virtual DOM: ReactJS leverages a virtual DOM to enhance user interface performance. By keeping a lightweight in-memory version of the actual DOM, React can efficiently manage updates and reduce unnecessary re-renders, resulting in better performance and a more seamless user experience.
-Extensive Ecosystem and Community Support: ReactJS boasts a rich ecosystem supported by an active community. Developers have access to a wide array of resources, libraries, and tools, offering numerous solutions to common development problems.
+1. Virtual DOM: ReactJS leverages a virtual DOM to enhance user interface performance. By keeping a lightweight in-memory version of the actual DOM, React can efficiently manage updates and reduce unnecessary re-renders, resulting in better performance and a more seamless user experience.
+
+2. Extensive Ecosystem and Community Support: ReactJS boasts a rich ecosystem supported by an active community. Developers have access to a wide array of resources, libraries, and tools, offering numerous solutions to common development problems.
 
 ### Vercel
 
